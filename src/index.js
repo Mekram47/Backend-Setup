@@ -1,9 +1,10 @@
 // require ('dotenv').config({path:'./env'}) // import method is below
+
+
 import dotenv from "dotenv";
 import app from "./app.js"
 
-// import mongoose from "mongoose";
-// import { DB_NAME } from "./constants"; // THis is not used as second approach is done 
+
 import connectDB from "./db/index.js";
 
 dotenv.config({path:'./env'})
@@ -21,6 +22,9 @@ console.log("MONGODB failed to Connect!!!!!!!!!!",err);
 })
 
 //  ---------------------------This is First Approach Of MONGODB connection------------------------------------
+
+// import mongoose from "mongoose";
+// import { DB_NAME } from "./constants"; // THis is not used as second approach is done 
 // import  express  from "express";
 // const app= express()
 
