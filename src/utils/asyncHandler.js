@@ -15,7 +15,7 @@ const asyncHandler= (requestHandler)=>{
 
 // const asyncHandler=()=>{}                    // Now Showing How we can write Super Order Function
 
-// const asyncHandler =()=>{()=>{}} //           Here We can REmove Curly Brackets to make it super orderfunc
+// const asyncHandler =()=>{()=>{}} //           Here We can Remove Curly Brackets to make it super orderfunc
 
 // const asyncHandler =()=>()=>{}                  // Given is the format of super order function//
 
